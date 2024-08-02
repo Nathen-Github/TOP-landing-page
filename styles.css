@@ -1,0 +1,85 @@
+:root {
+    --dark-bg: #1F2937;
+    --hero-main-text-color: #F9FAF8;
+    --hero-secondary-text-color: #E5E7EB;
+    --button-color: #3882F6;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid red;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    color: var(--hero-secondary-text-color);
+    font-size: 18px;
+    gap: 20px;
+}
+
+nav p:last-of-type {
+    margin-right: 10vw;
+}
+
+.logo {
+    color: var(--hero-main-text-color);
+    font-size: 24px;
+    margin-right: auto;
+    margin-left: 10vw;
+}
+
+#hero {
+    background-color: var(--dark-bg);
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 40px;
+}
+
+.hero-text {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--hero-main-text-color);
+}
+
+.hero-text p {
+    color: var(--hero-secondary-text-color);
+    font-size: 18px;
+}
+
+.signup {
+    width: 150px;
+    height: 40px;
+    background-color: var(--button-color);
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--hero-main-text-color);
+    font-weight: 700;
+}
+
+.hero-placeholder-img {
+    width: 600px;
+    height: 200px;
+    background-color: var(--hero-secondary-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

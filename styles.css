@@ -150,3 +150,31 @@ blockquote {
     font-weight: 700;
     margin-left: 550px;
 }
+
+#call-to-action {
+    height: 600px;
+    background-color: white;
+}
+
+.call-banner {
+    width: 900px;
+    height: 200px;
+    margin: 190px auto;
+    background-color: var(--button-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.call-banner h3, .call-banner p {
+    color: var(--hero-main-text-color);
+}
+
+.inverted {
+    border: 2px solid var(--hero-main-text-color);
+}
+
+h3 {
+    font-size: 25px;
+}

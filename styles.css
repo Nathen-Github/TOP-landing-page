@@ -9,11 +9,13 @@
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
     margin: 0;
-    border: 1px solid red;
     overflow-x: hidden;
 }
 
 nav {
+    width: 100vw;
+    height: 100px;
+    position: fixed;
     background-color: var(--dark-bg);
     display: flex;
     justify-content: flex-end;
@@ -38,7 +40,7 @@ nav p:last-of-type {
 #hero {
     background-color: var(--dark-bg);
     width: 100vw;
-    height: 600px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,4 +179,13 @@ blockquote {
 
 h3 {
     font-size: 25px;
+}
+
+footer {
+    background-color: var(--dark-bg);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--hero-secondary-text-color);
 }
